@@ -4,3 +4,9 @@
 [submodule "mcu-head"]
 	path = mcu-head
 	url = https://github.com/open-pe/mcu-head-p12-esp32s3-wroom
+[submodule "x"]
+	path = x
+	url = https://github.com/CapnKernel/afork-kicad-parts.git
+[submodule "afork-kicad-parts"]
+	path = afork-kicad-parts
+	url = https://github.com/CapnKernel/afork-kicad-parts.git
