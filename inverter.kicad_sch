@@ -217,7 +217,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Dual diode, common anode on pin 1"
+			(property "Description" "Dual diode, common cathode on pin 1"
 				(at 0 0 0)
 				(effects
 					(font
@@ -324,7 +324,7 @@
 				(pin passive line
 					(at -5.08 2.54 0)
 					(length 2.54)
-					(name "K"
+					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -342,6 +342,164 @@
 				(pin passive line
 					(at -5.08 -2.54 0)
 					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:D_Schottky_AAK"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "D_Schottky_AAK"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Schottky diode, anode on pins 1 and 2"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode Schottky SCHDPAK"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "D_Schottky_AAK_0_1"
+				(polyline
+					(pts
+						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 0)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 2.54) (xy 2.54 2.54) (xy 2.54 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_Schottky_AAK_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
 					(name "K"
 						(effects
 							(font
@@ -350,6 +508,24 @@
 						)
 					)
 					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1269,256 +1445,27 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "open-pe:ST15100S"
-			(pin_numbers
-				(hide yes)
+	)
+	(text "was: ST40100C"
+		(exclude_from_sim no)
+		(at 164.592 93.472 0)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "ST15100S"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "open-pe:TO-277B_ThermalVias"
-				(at -0.254 7.874 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.smc-diodes.com/propdf/ST15100S%20N2219%20REV.-.pdf"
-				(at -0.254 -5.334 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "ULTRA LOW VF SCHOTTKY RECTIFIERS, 100V, 15A"
-				(at -0.508 -3.048 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "diode Schottky ST15100S RECTIFIER ultra low trench mos"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "ST15100S_0_1"
-				(polyline
-					(pts
-						(xy -1.27 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27) (xy 1.27 0) (xy -1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.905 -0.762) (xy 1.905 -1.27) (xy 1.27 -1.27) (xy 1.27 1.27) (xy 0.635 1.27) (xy 0.635 0.762)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "ST15100S_0_2"
-				(polyline
-					(pts
-						(xy -2.54 -2.54) (xy 2.54 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.889 -0.889) (xy -1.778 0) (xy 0.889 0.889) (xy 0 -1.778) (xy -0.889 -0.889)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.778) (xy 1.778 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.778) (xy -0.381 1.397) (xy 0 1.016)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.778 0) (xy 2.159 0.381) (xy 1.778 0.762)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "ST15100S_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "ST15100S_1_2"
-				(pin passive line
-					(at -2.54 -2.54 0)
-					(length 0)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 2.54 180)
-					(length 0)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
+			(justify left)
 		)
+		(uuid "87b7cd34-f0f2-454a-b004-3af6db314551")
+	)
+	(text "was: SMC ST15100S"
+		(exclude_from_sim no)
+		(at 150.368 98.044 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b756dca9-0041-4953-95ef-c6993b9f397e")
 	)
 	(junction
 		(at 123.19 90.17)
@@ -1531,12 +1478,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "22ba45c6-2a93-4aff-88cf-c81142954fda")
-	)
-	(junction
-		(at 139.7 68.58)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "30adc685-8a21-4063-988d-b3550ee026ac")
 	)
 	(junction
 		(at 160.02 95.25)
@@ -1575,10 +1516,10 @@
 		(uuid "54fcdf47-d16b-4222-843f-8e5416e19a54")
 	)
 	(junction
-		(at 152.4 83.82)
+		(at 147.32 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "54febaca-f07e-4253-aad8-b51214505672")
+		(uuid "6b836c68-fe93-4065-963d-1c43974bee51")
 	)
 	(junction
 		(at 130.81 73.66)
@@ -1593,10 +1534,10 @@
 		(uuid "708f654a-c6a6-4936-a873-95236eff045e")
 	)
 	(junction
-		(at 152.4 100.33)
+		(at 149.86 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "79e32063-415e-4ffd-8ea3-04efd9ebeb06")
+		(uuid "84f7d8af-8884-4f86-82fb-3aa4de545a89")
 	)
 	(junction
 		(at 139.7 95.25)
@@ -1646,6 +1587,18 @@
 		(color 0 0 0 0)
 		(uuid "e16cc192-8735-44cf-9b14-8ba4c156d280")
 	)
+	(junction
+		(at 139.7 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e734f8fb-be2d-4e19-b7f5-d0bb4121cdda")
+	)
+	(junction
+		(at 147.32 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fa6185e2-e048-45d3-b50e-137f34618c79")
+	)
 	(wire
 		(pts
 			(xy 139.7 80.01) (xy 139.7 83.82)
@@ -1655,16 +1608,6 @@
 			(type default)
 		)
 		(uuid "0430b303-4f0c-4d9e-ab08-a9eac41e31c4")
-	)
-	(polyline
-		(pts
-			(xy 114.3 65.278) (xy 122.428 75.946)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0d6bd7bc-1e06-4b1e-9fd0-ac09d20f8884")
 	)
 	(wire
 		(pts
@@ -1688,6 +1631,26 @@
 	)
 	(wire
 		(pts
+			(xy 147.32 96.52) (xy 147.32 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a23a807-507b-4ab5-8d04-d864184e2af1")
+	)
+	(wire
+		(pts
+			(xy 167.64 63.5) (xy 167.64 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1af50bde-4b26-41df-8513-897966e91d21")
+	)
+	(wire
+		(pts
 			(xy 160.02 95.25) (xy 162.56 95.25)
 		)
 		(stroke
@@ -1705,6 +1668,16 @@
 			(type default)
 		)
 		(uuid "1d5841c9-2100-41d2-b3d2-d663c18cf46b")
+	)
+	(wire
+		(pts
+			(xy 147.32 83.82) (xy 160.02 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1dcdbdea-e4a8-4b1f-b663-aa3f121fbbef")
 	)
 	(wire
 		(pts
@@ -1728,7 +1701,7 @@
 	)
 	(polyline
 		(pts
-			(xy 150.622 65.024) (xy 150.622 76.2)
+			(xy 148.844 71.12) (xy 148.082 76.454)
 		)
 		(stroke
 			(width 0)
@@ -1788,17 +1761,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 95.25) (xy 152.4 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4a06adf4-c391-4c81-bace-2063a3ccd95f")
-	)
-	(wire
-		(pts
-			(xy 152.4 83.82) (xy 152.4 87.63)
+			(xy 147.32 83.82) (xy 147.32 87.63)
 		)
 		(stroke
 			(width 0)
@@ -1808,7 +1771,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 83.82) (xy 152.4 83.82)
+			(xy 139.7 83.82) (xy 147.32 83.82)
 		)
 		(stroke
 			(width 0)
@@ -1858,6 +1821,16 @@
 	)
 	(wire
 		(pts
+			(xy 147.32 100.33) (xy 149.86 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63ca49a9-908b-4bd1-946d-d4557e83afd4")
+	)
+	(wire
+		(pts
 			(xy 165.1 80.01) (xy 167.64 80.01)
 		)
 		(stroke
@@ -1878,7 +1851,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 58.42) (xy 147.32 58.42)
+			(xy 120.65 67.31) (xy 147.32 67.31)
 		)
 		(stroke
 			(width 0)
@@ -1905,16 +1878,6 @@
 			(type default)
 		)
 		(uuid "815383f2-9df5-4e4b-b5ba-1e156dbbc0bc")
-	)
-	(wire
-		(pts
-			(xy 152.4 83.82) (xy 160.02 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8d37ce6a-c296-4079-8323-8fc95a559cea")
 	)
 	(wire
 		(pts
@@ -1958,16 +1921,6 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 100.33) (xy 160.02 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9fe9c160-4233-4420-a0d4-83cc6a5e2e0b")
-	)
-	(wire
-		(pts
 			(xy 137.16 80.01) (xy 139.7 80.01)
 		)
 		(stroke
@@ -1988,7 +1941,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 58.42) (xy 120.65 73.66)
+			(xy 120.65 67.31) (xy 120.65 73.66)
 		)
 		(stroke
 			(width 0)
@@ -1998,7 +1951,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 68.58) (xy 167.64 68.58)
+			(xy 139.7 63.5) (xy 167.64 63.5)
 		)
 		(stroke
 			(width 0)
@@ -2058,6 +2011,16 @@
 	)
 	(wire
 		(pts
+			(xy 149.86 96.52) (xy 149.86 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cfed0734-f51d-484d-9e46-feb3a3844824")
+	)
+	(wire
+		(pts
 			(xy 157.48 95.25) (xy 160.02 95.25)
 		)
 		(stroke
@@ -2068,7 +2031,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 100.33) (xy 152.4 100.33)
+			(xy 139.7 100.33) (xy 147.32 100.33)
 		)
 		(stroke
 			(width 0)
@@ -2158,7 +2121,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 73.66) (xy 147.32 58.42)
+			(xy 147.32 73.66) (xy 147.32 67.31)
 		)
 		(stroke
 			(width 0)
@@ -2178,6 +2141,16 @@
 	)
 	(wire
 		(pts
+			(xy 139.7 63.5) (xy 139.7 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f21eeaad-f4dd-4210-9f9c-5d86b985dab1")
+	)
+	(wire
+		(pts
 			(xy 113.03 90.17) (xy 123.19 90.17)
 		)
 		(stroke
@@ -2188,7 +2161,17 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 68.58) (xy 139.7 68.58)
+			(xy 149.86 100.33) (xy 160.02 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f631a24b-5b5e-4aed-afa2-5e76029d6cb4")
+	)
+	(wire
+		(pts
+			(xy 113.03 63.5) (xy 139.7 63.5)
 		)
 		(stroke
 			(width 0)
@@ -2273,7 +2256,7 @@
 	)
 	(hierarchical_label "IN"
 		(shape input)
-		(at 113.03 68.58 180)
+		(at 113.03 63.5 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2293,7 +2276,7 @@
 		(dnp no)
 		(uuid "07be105b-1303-4706-bd8f-6770cf6ebcf7")
 		(property "Reference" "D1"
-			(at 121.666 79.756 90)
+			(at 120.142 77.47 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2301,7 +2284,7 @@
 			)
 		)
 		(property "Value" "MSS1P4-M3/89A"
-			(at 108.458 64.008 90)
+			(at 114.046 79.756 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2424,16 +2407,15 @@
 			)
 		)
 		(property "Value" "IPP055N08NF2SAKMA1"
-			(at 162.56 66.04 0)
+			(at 170.18 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
+		(property "Footprint" "local:TO-220-3_Horizontal_TabUp-nohole"
 			(at 171.45 75.565 0)
 			(effects
 				(font
@@ -2454,7 +2436,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "45A Id, 60V Vds, Single N-Channel Power MOSFET, 6mOhm Ron, TO-220"
+		(property "Description" ""
 			(at 165.1 73.66 0)
 			(effects
 				(font
@@ -2472,7 +2454,7 @@
 				(hide yes)
 			)
 		)
-		(property "Desc" "HS"
+		(property "Desc" ""
 			(at 165.1 73.66 0)
 			(effects
 				(font
@@ -2527,7 +2509,7 @@
 		(dnp no)
 		(uuid "42a09830-17bb-461b-ba8b-1d95bca6b623")
 		(property "Reference" "R8"
-			(at 137.668 93.98 0)
+			(at 134.62 93.472 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2535,7 +2517,7 @@
 			)
 		)
 		(property "Value" "7k5"
-			(at 134.62 95.25 90)
+			(at 134.62 97.282 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2621,8 +2603,8 @@
 		)
 	)
 	(symbol
-		(lib_id "open-pe:ST15100S")
-		(at 152.4 91.44 90)
+		(lib_id "Device:D_Schottky_AAK")
+		(at 147.32 91.44 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2630,7 +2612,7 @@
 		(dnp no)
 		(uuid "51ae7fe1-3bee-4970-9924-d116478fb81e")
 		(property "Reference" "D16"
-			(at 150.368 91.694 90)
+			(at 143.002 93.98 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2638,8 +2620,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "ST15100S"
-			(at 150.368 94.234 90)
+		(property "Value" "SP15100L"
+			(at 148.082 87.884 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2647,8 +2629,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "open-pe:TO-277B_ThermalVias"
-			(at 144.526 91.694 0)
+		(property "Footprint" "local:TO-277B-AAK"
+			(at 147.32 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2656,8 +2638,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.smc-diodes.com/propdf/ST15100S%20N2219%20REV.-.pdf"
-			(at 157.734 91.694 0)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C5375261.pdf"
+			(at 147.32 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2665,8 +2647,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "ULTRA LOW VF SCHOTTKY RECTIFIERS, 100V, 15A"
-			(at 155.448 91.948 0)
+		(property "Description" "Schottky diode, anode on pins 1 and 2"
+			(at 147.32 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2674,8 +2656,8 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "ST15100S"
-			(at 152.4 91.44 0)
+		(property "MPN" ""
+			(at 147.32 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2683,8 +2665,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "SMC"
-			(at 152.4 91.44 0)
+		(property "Manufacturer" "XCH"
+			(at 147.32 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2692,11 +2674,23 @@
 				(hide yes)
 			)
 		)
-		(pin "K"
+		(property "LCSC" "C5375261"
+			(at 147.32 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
 			(uuid "1cf16ad7-dce2-4ff7-8455-e49cfffe5410")
 		)
-		(pin "A"
+		(pin "2"
 			(uuid "46bdfd04-15e0-418c-b7aa-a1877f5f13dd")
+		)
+		(pin "3"
+			(uuid "40dd90d5-c775-46d8-86e9-5c052b272898")
 		)
 		(instances
 			(project "Fugu2"
@@ -2726,15 +2720,15 @@
 			)
 		)
 		(property "Value" "IPP055N08NF2SAKMA1"
-			(at 143.256 67.31 0)
+			(at 137.668 68.834 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Footprint" "open-pe:TO-220-3_Horizontal_BottomHeatsink_SmallHole"
+		(property "Footprint" "local:TO-220-3_Horizontal_TabUp-nohole"
 			(at 143.51 75.565 0)
 			(effects
 				(font
@@ -2745,7 +2739,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-IPP060N06N-DS-v02_02-en.pdf?fileId=db3a30433727a44301372c06d9d7498a"
 			(at 137.16 73.66 0)
 			(effects
 				(font
@@ -2773,7 +2767,7 @@
 				(hide yes)
 			)
 		)
-		(property "Desc" "HS"
+		(property "Desc" ""
 			(at 137.16 73.66 0)
 			(effects
 				(font
@@ -2932,7 +2926,7 @@
 		(dnp no)
 		(uuid "61c63429-8011-495d-a392-9aad603a1558")
 		(property "Reference" "D17"
-			(at 148.59 74.93 0)
+			(at 147.574 79.756 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2940,7 +2934,7 @@
 			)
 		)
 		(property "Value" "MSS1P4-M3/89A"
-			(at 149.86 64.008 90)
+			(at 150.622 69.85 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3255,11 +3249,12 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp yes)
+		(fields_autoplaced yes)
 		(uuid "79e929ba-bf9a-4250-9acc-b1f4331f8125")
 		(property "Reference" "D9"
-			(at 165.1 90.17 90)
+			(at 164.592 89.0213 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3267,8 +3262,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "ST40100C"
-			(at 165.1 92.456 90)
+		(property "Value" "MBR20100CT"
+			(at 164.592 91.4456 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3276,7 +3271,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "open-pe:TO-220-3_Horizontal_BottomHeatsink_NoHole"
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
 			(at 160.02 88.9 0)
 			(effects
 				(font
@@ -3285,7 +3280,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.smc-diodes.com/propdf/mbr30200ct(-1)%20mbrb30200ct%20n0769%20rev.a.pdf"
+		(property "Datasheet" "~"
 			(at 160.02 88.9 0)
 			(effects
 				(font
@@ -3294,7 +3289,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Dual diode, common cathode on pin 1"
 			(at 160.02 90.17 0)
 			(effects
 				(font
@@ -3332,6 +3327,15 @@
 		)
 		(property "Digikey" ""
 			(at 160.02 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C173465"
+			(at 160.02 90.17 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3599,16 +3603,16 @@
 				(justify left)
 			)
 		)
-		(property "Value" "FDPF2D3N10C"
-			(at 128.778 85.344 0)
+		(property "Value" "IPP055N08NF2SAKMA1"
+			(at 135.89 87.122 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Footprint" "open-pe:TO-220-3_Horizontal_BottomHeatsink_NoHole"
+		(property "Footprint" "local:TO-220-3_Horizontal_TabUp-nohole"
 			(at 143.51 92.075 0)
 			(effects
 				(font
@@ -3619,7 +3623,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-IPP060N06N-DS-v02_02-en.pdf?fileId=db3a30433727a44301372c06d9d7498a"
 			(at 137.16 90.17 0)
 			(effects
 				(font
@@ -3647,7 +3651,7 @@
 				(hide yes)
 			)
 		)
-		(property "Desc" "LS"
+		(property "Desc" ""
 			(at 137.16 90.17 0)
 			(effects
 				(font
@@ -3702,7 +3706,7 @@
 		(dnp no)
 		(uuid "e29ad3d2-8ef7-474e-bbc7-ed8abbd3390c")
 		(property "Reference" "R10"
-			(at 127 87.63 90)
+			(at 127 88.392 90)
 			(effects
 				(font
 					(size 1.27 1.27)

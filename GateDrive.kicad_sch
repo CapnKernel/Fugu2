@@ -2339,12 +2339,6 @@
 		(uuid "281341f9-9447-4983-86ab-5f02e2f623c3")
 	)
 	(junction
-		(at 78.74 91.44)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "282bb174-4d92-43e4-8ab8-1c02a7a353b4")
-	)
-	(junction
 		(at 76.2 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2393,22 +2387,10 @@
 		(uuid "7b5eb825-fb4e-4b3a-83f7-131f8f74981c")
 	)
 	(junction
-		(at 120.65 95.25)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "932379ba-43c2-44f9-8d1a-552dada4e765")
-	)
-	(junction
 		(at 218.44 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a8263354-8775-4b6c-a2d5-bd6f7f212f86")
-	)
-	(junction
-		(at 120.65 92.71)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b16a593b-750f-40eb-81ee-17a2ae8e1e46")
 	)
 	(junction
 		(at 190.5 104.14)
@@ -2446,11 +2428,29 @@
 		(color 0 0 0 0)
 		(uuid "e1fabec9-f8dc-46ab-9b98-6ac95c0bc791")
 	)
-	(junction
-		(at 120.65 90.17)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ff38ce17-bc02-4e38-8875-95bd35eed13f")
+	(no_connect
+		(at 58.42 96.52)
+		(uuid "03046d7d-c6c6-4e9b-88c3-2f19a20570dc")
+	)
+	(no_connect
+		(at 85.09 101.6)
+		(uuid "266c79c5-b3ef-40f9-9727-5025d8fe407f")
+	)
+	(no_connect
+		(at 82.55 88.9)
+		(uuid "85d1aaa3-fc21-4f95-a7d4-9c681cf97b0c")
+	)
+	(no_connect
+		(at 85.09 104.14)
+		(uuid "8b84444c-09f1-49d2-97a0-e8d330867fcd")
+	)
+	(no_connect
+		(at 85.09 91.44)
+		(uuid "9123a35a-c765-451c-b82d-524bf6315086")
+	)
+	(no_connect
+		(at 58.42 99.06)
+		(uuid "97181732-6a7b-4b5a-b2d0-204129e2d4e1")
 	)
 	(wire
 		(pts
@@ -2464,16 +2464,6 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 109.22) (xy 80.01 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "138cd3f2-15a7-44ef-854b-058c0480a8e4")
-	)
-	(wire
-		(pts
 			(xy 167.64 104.14) (xy 190.5 104.14)
 		)
 		(stroke
@@ -2484,7 +2474,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 95.25) (xy 120.65 95.25)
+			(xy 110.49 95.25) (xy 127 95.25)
 		)
 		(stroke
 			(width 0)
@@ -2534,16 +2524,6 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 91.44) (xy 78.74 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "20d9d780-1cad-438a-91f2-7ffe1c8be301")
-	)
-	(wire
-		(pts
 			(xy 62.23 109.22) (xy 71.12 109.22)
 		)
 		(stroke
@@ -2554,7 +2534,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 92.71) (xy 120.65 92.71)
+			(xy 110.49 92.71) (xy 127 92.71)
 		)
 		(stroke
 			(width 0)
@@ -2564,7 +2544,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 90.17) (xy 120.65 90.17)
+			(xy 110.49 90.17) (xy 127 90.17)
 		)
 		(stroke
 			(width 0)
@@ -2734,36 +2714,6 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 92.71) (xy 82.55 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5c9655e5-64c3-4f15-baee-f6856e10c9ec")
-	)
-	(wire
-		(pts
-			(xy 120.65 90.17) (xy 127 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5df45ac4-2e98-4f3b-96fe-41527dea441a")
-	)
-	(wire
-		(pts
-			(xy 120.65 95.25) (xy 127 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6014e376-5c5d-4a54-9075-ba5e014df207")
-	)
-	(wire
-		(pts
 			(xy 139.7 100.33) (xy 142.24 100.33)
 		)
 		(stroke
@@ -2914,16 +2864,6 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 111.76) (xy 71.12 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "961763be-bca3-4162-bb0e-61d533312168")
-	)
-	(wire
-		(pts
 			(xy 132.08 92.71) (xy 142.24 92.71)
 		)
 		(stroke
@@ -2931,16 +2871,6 @@
 			(type default)
 		)
 		(uuid "9785bf29-e1c0-4fc7-a352-c8b115fcd3c9")
-	)
-	(wire
-		(pts
-			(xy 120.65 92.71) (xy 127 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9901046b-4d9b-4057-a6da-e1c04fc7a2d9")
 	)
 	(wire
 		(pts
@@ -3442,99 +3372,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint_Probe")
-		(at 120.65 90.17 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0a01899d-111c-4d30-b231-2248c7ebb1b9")
-		(property "Reference" "TPINL1"
-			(at 119.888 89.154 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "~"
-			(at 124.46 89.8525 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 125.73 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 125.73 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 120.65 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 120.65 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" ""
-			(at 120.65 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "DNP"
-			(at 120.65 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "45651ce1-74b5-43b1-a3dd-260f9379b094")
-		)
-		(instances
-			(project "Fugu2"
-				(path "/e6692049-eaa1-423b-b1ac-05fb6d0f1fc2/f5331cca-fbfe-4ef6-ab6a-b63b09e582ac"
-					(reference "TPINL1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3.3V")
 		(at 133.35 74.93 0)
 		(unit 1)
@@ -3672,6 +3509,15 @@
 			)
 		)
 		(property "Digikey" "UCC21330BQDRQ1"
+			(at 154.94 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C34414221"
 			(at 154.94 92.71 0)
 			(effects
 				(font
@@ -4360,6 +4206,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 71.12 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "621aefed-f355-494a-8f86-68a29fd7e879")
+		(property "Reference" "#PWR010"
+			(at 71.12 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 71.12 115.8931 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 71.12 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 71.12 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c62a2a3a-3522-4bc6-a6f9-1015cf3da823")
+		)
+		(instances
+			(project "Fugu2"
+				(path "/e6692049-eaa1-423b-b1ac-05fb6d0f1fc2/f5331cca-fbfe-4ef6-ab6a-b63b09e582ac"
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+12V")
 		(at 76.2 82.55 0)
 		(unit 1)
@@ -5036,100 +4948,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint_Probe")
-		(at 120.65 95.25 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ab5af202-2d95-4718-9a08-4a7808846c65")
-		(property "Reference" "TPSD1"
-			(at 113.284 94.234 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 124.46 94.9325 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 125.73 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 125.73 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 120.65 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 120.65 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" ""
-			(at 120.65 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "DNP"
-			(at 120.65 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c57f7caf-874e-476c-9415-5bc07833f3d8")
-		)
-		(instances
-			(project "Fugu2"
-				(path "/e6692049-eaa1-423b-b1ac-05fb6d0f1fc2/f5331cca-fbfe-4ef6-ab6a-b63b09e582ac"
-					(reference "TPSD1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small")
 		(at 209.55 91.44 90)
 		(unit 1)
@@ -5586,100 +5404,6 @@
 			(project "Fugu2"
 				(path "/e6692049-eaa1-423b-b1ac-05fb6d0f1fc2/f5331cca-fbfe-4ef6-ab6a-b63b09e582ac"
 					(reference "C2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint_Probe")
-		(at 120.65 92.71 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "dea24e88-4ea4-4677-aa0d-c2895b9b878c")
-		(property "Reference" "TPINH1"
-			(at 113.284 91.694 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 124.46 92.3925 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 125.73 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 125.73 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 120.65 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 120.65 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" ""
-			(at 120.65 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "DNP"
-			(at 120.65 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9df53a53-6fa1-4514-8bc5-e9e962bb557f")
-		)
-		(instances
-			(project "Fugu2"
-				(path "/e6692049-eaa1-423b-b1ac-05fb6d0f1fc2/f5331cca-fbfe-4ef6-ab6a-b63b09e582ac"
-					(reference "TPINH1")
 					(unit 1)
 				)
 			)

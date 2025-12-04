@@ -1135,8 +1135,12 @@
 		)
 		(symbol "power:GND"
 			(power)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1212,8 +1216,7 @@
 				(pin power_in line
 					(at 0 0 270)
 					(length 0)
-					(hide yes)
-					(name "GND"
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1523,7 +1526,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 143.51) (xy 163.83 129.54)
+			(xy 163.83 135.89) (xy 163.83 129.54)
 		)
 		(stroke
 			(width 0)
@@ -1533,7 +1536,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 120.65) (xy 210.82 120.65)
+			(xy 194.31 127) (xy 209.55 127)
 		)
 		(stroke
 			(width 0)
@@ -1813,7 +1816,7 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 82.55) (xy 219.71 143.51)
+			(xy 219.71 82.55) (xy 219.71 135.89)
 		)
 		(stroke
 			(width 0)
@@ -1873,7 +1876,7 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 143.51) (xy 163.83 143.51)
+			(xy 219.71 135.89) (xy 163.83 135.89)
 		)
 		(stroke
 			(width 0)
@@ -1933,7 +1936,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 128.27) (xy 199.39 128.27)
+			(xy 194.31 121.92) (xy 199.39 121.92)
 		)
 		(stroke
 			(width 0)
@@ -1973,7 +1976,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 99.06) (xy 199.39 128.27)
+			(xy 199.39 99.06) (xy 199.39 121.92)
 		)
 		(stroke
 			(width 0)
@@ -1983,7 +1986,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.226 90.17) (xy 151.13 90.17)
+			(xy 157.48 90.17) (xy 151.13 90.17)
 		)
 		(stroke
 			(width 0)
@@ -1993,7 +1996,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 82.55) (xy 193.04 82.55)
+			(xy 184.15 82.55) (xy 191.77 82.55)
 		)
 		(stroke
 			(width 0)
@@ -2063,7 +2066,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 71.12) (xy 193.04 71.12)
+			(xy 124.46 71.12) (xy 191.77 71.12)
 		)
 		(stroke
 			(width 0)
@@ -2142,7 +2145,7 @@
 		(uuid "fe6977e8-4c8d-4e1a-9466-9a9471150d9d")
 	)
 	(label "HeatSink"
-		(at 260.35 30.48 0)
+		(at 260.35 24.13 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2175,7 +2178,7 @@
 	)
 	(global_label "BT+"
 		(shape input)
-		(at 210.82 120.65 0)
+		(at 209.55 127 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2185,7 +2188,7 @@
 		)
 		(uuid "3e6d1142-ad68-4c40-9beb-875c8ae8b0d6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 217.6152 120.65 0)
+			(at 216.3452 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2285,7 +2288,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 264.16 53.34 0)
+		(at 264.16 33.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -2294,7 +2297,7 @@
 		(fields_autoplaced yes)
 		(uuid "0d10821d-36dd-4e49-8d05-03678baef0ff")
 		(property "Reference" "H2"
-			(at 267.335 52.07 0)
+			(at 267.335 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2303,7 +2306,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 267.335 54.61 0)
+			(at 267.335 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2312,7 +2315,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965"
-			(at 264.16 53.34 0)
+			(at 264.16 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2321,7 +2324,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 264.16 53.34 0)
+			(at 264.16 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2330,7 +2333,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 264.16 53.34 0)
+			(at 264.16 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2339,7 +2342,7 @@
 			)
 		)
 		(property "MPN" "DNP"
-			(at 264.16 53.34 0)
+			(at 264.16 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2348,7 +2351,7 @@
 			)
 		)
 		(property "Desc" ""
-			(at 264.16 53.34 0)
+			(at 264.16 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2357,7 +2360,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 264.16 53.34 0)
+			(at 264.16 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2366,7 +2369,7 @@
 			)
 		)
 		(property "Digikey" ""
-			(at 264.16 53.34 0)
+			(at 264.16 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2427,7 +2430,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 123.19 104.14 0)
 			(effects
 				(font
@@ -2474,7 +2477,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_Type703_RT10N02HGLU_1x02_P9.52mm_Horizontal"
+		(property "Footprint" "local:CONN-TH_DG135T-10.16-02P-14-00A"
 			(at 48.26 76.2 0)
 			(effects
 				(font
@@ -2501,7 +2504,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "DNP"
+		(property "MPN" "DB135-10.16-2P-GN-P"
 			(at 48.26 76.2 0)
 			(effects
 				(font
@@ -2519,7 +2522,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "DORABO"
 			(at 48.26 76.2 0)
 			(effects
 				(font
@@ -2529,6 +2532,15 @@
 			)
 		)
 		(property "Digikey" ""
+			(at 48.26 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2981775"
 			(at 48.26 76.2 0)
 			(effects
 				(font
@@ -2554,7 +2566,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 264.16 33.02 0)
+		(at 264.16 53.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -2563,7 +2575,7 @@
 		(fields_autoplaced yes)
 		(uuid "2d94fdaa-af7e-4394-84a9-ca45a5ce5df0")
 		(property "Reference" "H6"
-			(at 266.7 31.7499 0)
+			(at 266.7 52.0699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2572,7 +2584,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 266.7 34.2899 0)
+			(at 266.7 54.6099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2581,7 +2593,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965"
-			(at 264.16 33.02 0)
+			(at 264.16 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2590,7 +2602,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 264.16 33.02 0)
+			(at 264.16 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2599,7 +2611,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 264.16 33.02 0)
+			(at 264.16 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2608,7 +2620,7 @@
 			)
 		)
 		(property "MPN" "DNP"
-			(at 264.16 33.02 0)
+			(at 264.16 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2617,7 +2629,7 @@
 			)
 		)
 		(property "Desc" ""
-			(at 264.16 33.02 0)
+			(at 264.16 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2626,7 +2638,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 264.16 33.02 0)
+			(at 264.16 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2635,7 +2647,7 @@
 			)
 		)
 		(property "Digikey" ""
-			(at 264.16 33.02 0)
+			(at 264.16 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2766,7 +2778,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 264.16 48.26 0)
+		(at 264.16 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -2775,7 +2787,7 @@
 		(fields_autoplaced yes)
 		(uuid "32ea36b0-ccfb-44be-a123-7c32002bc0f5")
 		(property "Reference" "H3"
-			(at 267.335 46.99 0)
+			(at 267.335 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2784,7 +2796,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 267.335 49.53 0)
+			(at 267.335 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2793,7 +2805,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965"
-			(at 264.16 48.26 0)
+			(at 264.16 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2802,7 +2814,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 264.16 48.26 0)
+			(at 264.16 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2811,7 +2823,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 264.16 48.26 0)
+			(at 264.16 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2820,7 +2832,7 @@
 			)
 		)
 		(property "MPN" "DNP"
-			(at 264.16 48.26 0)
+			(at 264.16 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2829,7 +2841,7 @@
 			)
 		)
 		(property "Desc" ""
-			(at 264.16 48.26 0)
+			(at 264.16 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2838,7 +2850,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 264.16 48.26 0)
+			(at 264.16 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2847,7 +2859,7 @@
 			)
 		)
 		(property "Digikey" ""
-			(at 264.16 48.26 0)
+			(at 264.16 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3014,7 +3026,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 232.41 100.33 0)
 			(effects
 				(font
@@ -3053,7 +3065,7 @@
 				)
 			)
 		)
-		(property "Value" "L_Iron"
+		(property "Value" "RSEQ32-470M"
 			(at 165.1 79.4328 90)
 			(effects
 				(font
@@ -3061,7 +3073,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_Sunlord_MWSA2213S"
+		(property "Footprint" "local:IND-TH_L33.0-W31.5"
 			(at 165.1 82.55 0)
 			(effects
 				(font
@@ -3070,7 +3082,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C37634010.pdf"
 			(at 165.1 82.55 0)
 			(effects
 				(font
@@ -3081,6 +3093,24 @@
 		)
 		(property "Description" "Inductor with iron core"
 			(at 165.1 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C37634010"
+			(at 165.1 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Ruishen"
+			(at 165.1 82.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3313,7 +3343,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 264.16 43.18 270)
+		(at 264.16 48.26 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -3322,7 +3352,7 @@
 		(fields_autoplaced yes)
 		(uuid "91954b1d-4c60-46a1-abf9-0daf7e8af19c")
 		(property "Reference" "H5"
-			(at 266.7 41.91 90)
+			(at 266.7 46.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3331,7 +3361,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 266.7 44.45 90)
+			(at 266.7 49.53 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3340,7 +3370,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965"
-			(at 264.16 43.18 0)
+			(at 264.16 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3349,7 +3379,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 264.16 43.18 0)
+			(at 264.16 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3358,7 +3388,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 264.16 43.18 0)
+			(at 264.16 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3367,7 +3397,7 @@
 			)
 		)
 		(property "MPN" "DNP"
-			(at 264.16 43.18 0)
+			(at 264.16 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3376,7 +3406,7 @@
 			)
 		)
 		(property "Desc" ""
-			(at 264.16 43.18 0)
+			(at 264.16 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3385,7 +3415,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 264.16 43.18 0)
+			(at 264.16 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3394,7 +3424,7 @@
 			)
 		)
 		(property "Digikey" ""
-			(at 264.16 43.18 0)
+			(at 264.16 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3422,7 +3452,7 @@
 		(fields_autoplaced yes)
 		(uuid "91d3f8e4-3679-4432-b605-aeee583d823d")
 		(property "Reference" "F1"
-			(at 226.06 64.77 90)
+			(at 226.06 66.2135 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3430,14 +3460,14 @@
 			)
 		)
 		(property "Value" "Fuse"
-			(at 226.06 67.31 90)
+			(at 226.06 68.6378 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "open-pe:Fuse_Blade_ATO_directSolderThin"
+		(property "Footprint" "afork-kicad-parts:FUSE-TH_XF-506P"
 			(at 226.06 72.898 90)
 			(effects
 				(font
@@ -3526,15 +3556,6 @@
 		(dnp no)
 		(uuid "ba085048-2354-412b-9301-ee75a6d7b74e")
 		(property "Reference" "J9"
-			(at 240.03 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BAT"
 			(at 240.03 82.55 0)
 			(effects
 				(font
@@ -3543,7 +3564,16 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_Type703_RT10N02HGLU_1x02_P9.52mm_Horizontal"
+		(property "Value" "BAT"
+			(at 240.03 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "local:CONN-TH_DG135T-10.16-02P-14-00A"
 			(at 237.49 85.09 0)
 			(effects
 				(font
@@ -3570,7 +3600,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "DNP"
+		(property "MPN" "DB135-10.16-2P-GN-P"
 			(at 237.49 85.09 0)
 			(effects
 				(font
@@ -3588,7 +3618,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "DORABO"
 			(at 237.49 85.09 0)
 			(effects
 				(font
@@ -3598,6 +3628,15 @@
 			)
 		)
 		(property "Digikey" ""
+			(at 237.49 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2981775"
 			(at 237.49 85.09 0)
 			(effects
 				(font
@@ -3768,7 +3807,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 251.46 40.64 0)
 			(effects
 				(font
@@ -3893,7 +3932,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 264.16 38.1 270)
+		(at 264.16 43.18 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -3902,7 +3941,7 @@
 		(fields_autoplaced yes)
 		(uuid "e92ca7fe-ad3a-4179-af7a-14674530b990")
 		(property "Reference" "H4"
-			(at 266.7 36.83 90)
+			(at 266.7 41.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3911,7 +3950,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 266.7 39.37 90)
+			(at 266.7 44.45 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3920,7 +3959,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965"
-			(at 264.16 38.1 0)
+			(at 264.16 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3929,7 +3968,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 264.16 38.1 0)
+			(at 264.16 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3938,7 +3977,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 264.16 38.1 0)
+			(at 264.16 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3947,7 +3986,7 @@
 			)
 		)
 		(property "MPN" "DNP"
-			(at 264.16 38.1 0)
+			(at 264.16 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3956,7 +3995,7 @@
 			)
 		)
 		(property "Desc" ""
-			(at 264.16 38.1 0)
+			(at 264.16 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3965,7 +4004,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 264.16 38.1 0)
+			(at 264.16 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3974,7 +4013,7 @@
 			)
 		)
 		(property "Digikey" ""
-			(at 264.16 38.1 0)
+			(at 264.16 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4341,7 +4380,7 @@
 			)
 		)
 		(pin "CS_P" input
-			(at 194.31 128.27 0)
+			(at 194.31 121.92 0)
 			(uuid "63ac47c0-c3e2-4695-b251-aac5bec5b68c")
 			(effects
 				(font
@@ -4381,7 +4420,7 @@
 			)
 		)
 		(pin "BT_P" input
-			(at 194.31 120.65 0)
+			(at 194.31 127 0)
 			(uuid "e5a8ebd5-927f-4e6b-8e71-d3782954c81f")
 			(effects
 				(font
@@ -4441,7 +4480,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
 		(pin "Vusb" input
@@ -4463,8 +4501,8 @@
 		)
 	)
 	(sheet
-		(at 193.04 68.58)
-		(size 19.05 17.78)
+		(at 191.77 68.58)
+		(size 20.32 17.78)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -4480,7 +4518,7 @@
 		)
 		(uuid "dc3c1875-d67c-453c-9b93-b8a4e7955888")
 		(property "Sheetname" "backflow"
-			(at 193.04 67.8684 0)
+			(at 191.77 67.8684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4489,7 +4527,7 @@
 			)
 		)
 		(property "Sheetfile" "backflow.kicad_sch"
-			(at 193.04 86.9446 0)
+			(at 191.77 86.9446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4508,7 +4546,7 @@
 			)
 		)
 		(pin "HI" input
-			(at 193.04 71.12 180)
+			(at 191.77 71.12 180)
 			(uuid "427a0e41-358a-4673-8821-eb9145e3edc9")
 			(effects
 				(font
@@ -4528,7 +4566,7 @@
 			)
 		)
 		(pin "BFLOWS" input
-			(at 193.04 82.55 180)
+			(at 191.77 82.55 180)
 			(uuid "935dd4ad-4d87-4daf-a8f6-9abb81ff2a2f")
 			(effects
 				(font
@@ -4552,7 +4590,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -4572,7 +4609,7 @@
 			)
 		)
 		(property "Sheetfile" "snubber.kicad_sch"
-			(at 157.48 94.0566 0)
+			(at 154.94 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4630,7 +4667,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
 		(pin "HI" output

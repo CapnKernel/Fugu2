@@ -1959,8 +1959,12 @@
 		)
 		(symbol "power:GND"
 			(power)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2036,8 +2040,7 @@
 				(pin power_in line
 					(at 0 0 270)
 					(length 0)
-					(hide yes)
-					(name "GND"
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2332,10 +2335,22 @@
 		(uuid "47d17308-fc85-4bc3-9142-364290da7782")
 	)
 	(junction
+		(at 199.39 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "48c55efe-2309-45e6-9613-9963ba27df4b")
+	)
+	(junction
 		(at 172.72 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4be0d281-89b1-466d-a65d-1ed2cb4da0c9")
+	)
+	(junction
+		(at 199.39 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5402b33c-718b-4986-abc7-e71e616296de")
 	)
 	(junction
 		(at 107.95 58.42)
@@ -2374,10 +2389,10 @@
 		(uuid "79cb3a84-1361-410c-b344-da84a9602418")
 	)
 	(junction
-		(at 199.39 69.85)
+		(at 205.74 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "7e639975-78b0-4a57-bad6-39ea6bb641b3")
+		(uuid "86835d73-5267-41c3-843d-7c17bf0c1bd1")
 	)
 	(junction
 		(at 172.72 63.5)
@@ -2414,12 +2429,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b8919eee-9df6-42dc-b502-6b175005216d")
-	)
-	(junction
-		(at 199.39 127)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b96a8e9c-cd2f-47bb-9aba-ef7286498b2c")
 	)
 	(junction
 		(at 199.39 138.43)
@@ -2469,12 +2478,6 @@
 		(color 0 0 0 0)
 		(uuid "f3962d79-1203-40ab-a6f5-d205c04b2d22")
 	)
-	(junction
-		(at 205.74 120.65)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f46d12d5-b58b-4288-813f-96510d8dc3c0")
-	)
 	(no_connect
 		(at 167.64 128.27)
 		(uuid "6636eb09-3344-472a-877d-740e03cee538")
@@ -2522,6 +2525,16 @@
 			(type default)
 		)
 		(uuid "0ed238d6-a554-4322-8579-72f174a56bb0")
+	)
+	(wire
+		(pts
+			(xy 203.2 63.5) (xy 205.74 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f4241a0-7e06-49cf-bbee-91bfea65f65c")
 	)
 	(wire
 		(pts
@@ -2575,7 +2588,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 69.85) (xy 200.66 69.85)
+			(xy 199.39 68.58) (xy 200.66 68.58)
 		)
 		(stroke
 			(width 0)
@@ -2675,7 +2688,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 127) (xy 200.66 127)
+			(xy 199.39 125.73) (xy 200.66 125.73)
 		)
 		(stroke
 			(width 0)
@@ -2715,7 +2728,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 127) (xy 199.39 127)
+			(xy 198.12 125.73) (xy 199.39 125.73)
 		)
 		(stroke
 			(width 0)
@@ -2825,7 +2838,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 127) (xy 193.04 127)
+			(xy 191.77 125.73) (xy 193.04 125.73)
 		)
 		(stroke
 			(width 0)
@@ -2875,6 +2888,16 @@
 	)
 	(wire
 		(pts
+			(xy 203.2 120.65) (xy 205.74 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64916728-c723-4baa-83f6-358cf6b7e97a")
+	)
+	(wire
+		(pts
 			(xy 139.7 120.65) (xy 139.7 115.57)
 		)
 		(stroke
@@ -2885,7 +2908,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 120.65) (xy 205.74 127)
+			(xy 205.74 120.65) (xy 205.74 125.73)
 		)
 		(stroke
 			(width 0)
@@ -2955,7 +2978,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 69.85) (xy 199.39 69.85)
+			(xy 198.12 68.58) (xy 199.39 68.58)
 		)
 		(stroke
 			(width 0)
@@ -3045,7 +3068,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 63.5) (xy 198.12 63.5)
+			(xy 191.77 63.5) (xy 195.58 63.5)
 		)
 		(stroke
 			(width 0)
@@ -3305,7 +3328,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 63.5) (xy 205.74 69.85)
+			(xy 205.74 63.5) (xy 205.74 68.58)
 		)
 		(stroke
 			(width 0)
@@ -3365,6 +3388,16 @@
 	)
 	(wire
 		(pts
+			(xy 139.7 55.88) (xy 139.7 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b403ea14-a748-44d6-8c29-ca67f152a123")
+	)
+	(wire
+		(pts
 			(xy 125.73 58.42) (xy 125.73 66.04)
 		)
 		(stroke
@@ -3372,6 +3405,16 @@
 			(type default)
 		)
 		(uuid "bd9eeddb-a4cd-4ac0-8b81-3b1a31fc5fa6")
+	)
+	(wire
+		(pts
+			(xy 199.39 125.73) (xy 199.39 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be2dc64f-70e6-43d2-9f8a-6eaf21f06967")
 	)
 	(wire
 		(pts
@@ -3385,7 +3428,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 69.85) (xy 193.04 69.85)
+			(xy 191.77 68.58) (xy 193.04 68.58)
 		)
 		(stroke
 			(width 0)
@@ -3405,7 +3448,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 120.65) (xy 191.77 127)
+			(xy 191.77 120.65) (xy 191.77 125.73)
 		)
 		(stroke
 			(width 0)
@@ -3455,7 +3498,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 120.65) (xy 198.12 120.65)
+			(xy 191.77 120.65) (xy 195.58 120.65)
 		)
 		(stroke
 			(width 0)
@@ -3615,17 +3658,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 127) (xy 199.39 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ef3d7c31-4537-4d3e-b810-9a42b50dee40")
-	)
-	(wire
-		(pts
-			(xy 199.39 69.85) (xy 199.39 71.12)
+			(xy 199.39 68.58) (xy 199.39 71.12)
 		)
 		(stroke
 			(width 0)
@@ -3695,7 +3728,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 63.5) (xy 191.77 69.85)
+			(xy 191.77 63.5) (xy 191.77 68.58)
 		)
 		(stroke
 			(width 0)
@@ -3803,7 +3836,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 133.35 149.86 0)
 			(effects
 				(font
@@ -3869,7 +3902,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 140.97 92.71 0)
 			(effects
 				(font
@@ -3935,7 +3968,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 223.52 92.71 0)
 			(effects
 				(font
@@ -4170,7 +4203,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 182.88 149.86 0)
 			(effects
 				(font
@@ -4280,7 +4313,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 195.58 127 90)
+		(at 195.58 125.73 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4288,7 +4321,7 @@
 		(dnp no)
 		(uuid "1ccbccb8-b1ee-42bd-9bfd-c8b2b970733d")
 		(property "Reference" "R44"
-			(at 197.358 124.968 90)
+			(at 197.358 123.698 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4297,7 +4330,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 196.088 128.778 90)
+			(at 196.088 127.508 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4306,7 +4339,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 195.58 127 0)
+			(at 195.58 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4315,7 +4348,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 195.58 127 0)
+			(at 195.58 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4324,7 +4357,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 195.58 127 0)
+			(at 195.58 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4392,7 +4425,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 116.84 92.71 0)
 			(effects
 				(font
@@ -4527,7 +4560,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 125.73 92.71 0)
 			(effects
 				(font
@@ -4915,8 +4948,8 @@
 		(at 182.88 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
+		(in_bom yes)
+		(on_board yes)
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "4ab388b5-1e6f-4c70-8cbc-b02ee227e438")
@@ -5025,7 +5058,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 213.36 92.71 0)
 			(effects
 				(font
@@ -5091,7 +5124,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 68.58 111.76 0)
 			(effects
 				(font
@@ -5114,7 +5147,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 203.2 127 90)
+		(at 203.2 125.73 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5122,7 +5155,7 @@
 		(dnp no)
 		(uuid "61720576-4c01-493b-917a-75d1a6e41c50")
 		(property "Reference" "C42"
-			(at 208.026 128.524 90)
+			(at 208.026 127.254 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5131,7 +5164,7 @@
 			)
 		)
 		(property "Value" "2n2 100 V"
-			(at 214.884 125.476 90)
+			(at 214.884 124.206 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5140,7 +5173,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 203.2 127 0)
+			(at 203.2 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5149,7 +5182,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 203.2 127 0)
+			(at 203.2 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5158,7 +5191,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 203.2 127 0)
+			(at 203.2 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5166,8 +5199,17 @@
 				(hide yes)
 			)
 		)
-		(property "Ref" "GCM155R71H222KA37D"
-			(at 203.2 127 0)
+		(property "Ref" ""
+			(at 203.2 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GCM155R71H222KA37D"
+			(at 203.2 125.73 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5192,7 +5234,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 203.2 69.85 90)
+		(at 203.2 68.58 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5200,7 +5242,7 @@
 		(dnp no)
 		(uuid "63f38000-b92a-4fd9-93e7-d2135c20b816")
 		(property "Reference" "C34"
-			(at 208.026 71.374 90)
+			(at 208.026 70.104 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5209,7 +5251,7 @@
 			)
 		)
 		(property "Value" "2n2 100 V"
-			(at 214.884 68.326 90)
+			(at 214.884 67.056 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5218,7 +5260,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 203.2 69.85 0)
+			(at 203.2 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5227,7 +5269,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 203.2 69.85 0)
+			(at 203.2 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5236,7 +5278,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 203.2 69.85 0)
+			(at 203.2 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5244,8 +5286,17 @@
 				(hide yes)
 			)
 		)
-		(property "Ref" "GCM155R71H222KA37D"
-			(at 203.2 69.85 0)
+		(property "Ref" ""
+			(at 203.2 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GCM155R71H222KA37D"
+			(at 203.2 68.58 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5322,7 +5373,7 @@
 				(hide yes)
 			)
 		)
-		(property "Ref" "GCM155R71H222KA37D"
+		(property "MPN" "GCM155R71H222KA37D"
 			(at 172.72 60.96 0)
 			(effects
 				(font
@@ -5391,7 +5442,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 88.9 73.66 0)
 			(effects
 				(font
@@ -5588,7 +5639,7 @@
 	)
 	(symbol
 		(lib_id "Device:L")
-		(at 201.93 63.5 90)
+		(at 199.39 63.5 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5596,7 +5647,7 @@
 		(dnp no)
 		(uuid "7b083a4b-540d-4f10-95c4-d2a1c4b6781d")
 		(property "Reference" "L2"
-			(at 201.93 58.674 90)
+			(at 199.39 58.674 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5604,15 +5655,15 @@
 			)
 		)
 		(property "Value" "100uH"
-			(at 201.93 61.214 90)
+			(at 199.39 61.214 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_Taiyo-Yuden_NR-80xx_HandSoldering"
-			(at 201.93 63.5 0)
+		(property "Footprint" "local:IND-SMD_L8.0-W8.0"
+			(at 199.39 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5620,8 +5671,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 201.93 63.5 0)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C223045.pdf"
+			(at 199.39 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5630,7 +5681,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 201.93 63.5 0)
+			(at 199.39 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5639,7 +5690,25 @@
 			)
 		)
 		(property "MPN" "NRS8040T101MJGK"
-			(at 201.93 63.5 90)
+			(at 199.39 63.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C223045"
+			(at 199.39 63.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Taiyo Yuden"
+			(at 199.39 63.5 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5961,7 +6030,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 195.58 69.85 90)
+		(at 195.58 68.58 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5969,7 +6038,7 @@
 		(dnp no)
 		(uuid "969231f6-7847-476f-baa1-e1776d9bf4c2")
 		(property "Reference" "R39"
-			(at 197.358 67.818 90)
+			(at 197.358 66.548 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5978,7 +6047,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 196.088 71.628 90)
+			(at 196.088 70.358 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5987,7 +6056,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 195.58 69.85 0)
+			(at 195.58 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5996,7 +6065,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 195.58 69.85 0)
+			(at 195.58 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6005,7 +6074,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 195.58 69.85 0)
+			(at 195.58 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6142,7 +6211,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 182.88 92.71 0)
 			(effects
 				(font
@@ -6274,7 +6343,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 133.35 92.71 0)
 			(effects
 				(font
@@ -6355,6 +6424,72 @@
 			(project "Fugu2"
 				(path "/e6692049-eaa1-423b-b1ac-05fb6d0f1fc2/8bdaa788-2fc2-4872-9b0d-b14952df8b59"
 					(reference "#FLG07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 139.7 55.88 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a62cbd03-e970-45fa-b58f-18f84d542ae4")
+		(property "Reference" "#FLG02"
+			(at 139.7 53.975 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 133.604 54.102 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 139.7 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 139.7 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 139.7 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "05b15ec7-f2b7-479e-949c-7021a3958f39")
+		)
+		(instances
+			(project "Fugu2"
+				(path "/e6692049-eaa1-423b-b1ac-05fb6d0f1fc2/8bdaa788-2fc2-4872-9b0d-b14952df8b59"
+					(reference "#FLG02")
 					(unit 1)
 				)
 			)
@@ -6618,7 +6753,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 140.97 149.86 0)
 			(effects
 				(font
@@ -6754,7 +6889,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 152.4 92.71 0)
 			(effects
 				(font
@@ -6907,7 +7042,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "47uF, 100V"
+		(property "MPN" "ERS1KM470F12OT"
 			(at 93.98 64.77 0)
 			(effects
 				(font
@@ -6943,7 +7078,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "ERS1KM470F12OT"
+		(property "LCSC" ""
 			(at 93.98 64.77 0)
 			(effects
 				(font
@@ -7160,7 +7295,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 125.73 149.86 0)
 			(effects
 				(font
@@ -7383,7 +7518,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 223.52 149.86 0)
 			(effects
 				(font
@@ -7536,7 +7671,7 @@
 				(hide yes)
 			)
 		)
-		(property "Ref" "GCM155R71H222KA37D"
+		(property "MPN" "GCM155R71H222KA37D"
 			(at 172.72 118.11 0)
 			(effects
 				(font
@@ -7804,8 +7939,8 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(on_board no)
+		(dnp yes)
 		(uuid "edd496f3-526a-4220-af97-12b1fe1f5092")
 		(property "Reference" "D7"
 			(at 67.31 46.99 0)
@@ -7921,7 +8056,7 @@
 	)
 	(symbol
 		(lib_id "Device:L")
-		(at 201.93 120.65 90)
+		(at 199.39 120.65 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7929,7 +8064,7 @@
 		(dnp no)
 		(uuid "f00400d1-7d22-4aa0-8185-fabb13121e01")
 		(property "Reference" "L3"
-			(at 201.93 115.824 90)
+			(at 199.39 115.824 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7937,15 +8072,15 @@
 			)
 		)
 		(property "Value" "100uH"
-			(at 201.93 118.364 90)
+			(at 199.39 118.364 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_Taiyo-Yuden_NR-80xx_HandSoldering"
-			(at 201.93 120.65 0)
+		(property "Footprint" "local:IND-SMD_L8.0-W8.0"
+			(at 199.39 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7953,8 +8088,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 201.93 120.65 0)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C223045.pdf"
+			(at 199.39 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7963,7 +8098,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 201.93 120.65 0)
+			(at 199.39 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7972,7 +8107,25 @@
 			)
 		)
 		(property "MPN" "NRS8040T101MJGK"
-			(at 201.93 120.65 90)
+			(at 199.39 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C223045"
+			(at 199.39 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Taiyo Yuden"
+			(at 199.39 120.65 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8105,7 +8258,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 116.84 149.86 0)
 			(effects
 				(font
@@ -8171,7 +8324,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 152.4 149.86 0)
 			(effects
 				(font
@@ -8275,8 +8428,8 @@
 		(at 182.88 69.85 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
+		(in_bom yes)
+		(on_board yes)
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "ff137557-2c17-49fb-87a7-3db09367aaee")
@@ -8385,7 +8538,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 213.36 149.86 0)
 			(effects
 				(font

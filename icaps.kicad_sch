@@ -1002,7 +1002,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "HMK107C7224KAHTE"
+		(property "LCSC" ""
 			(at 171.45 92.71 0)
 			(effects
 				(font
@@ -1221,7 +1221,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "HMK212BC7105KGHTE"
+		(property "LCSC" ""
 			(at 152.4 85.09 0)
 			(effects
 				(font
@@ -1272,7 +1272,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_2220_5650Metric"
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
 			(at 135.5852 96.52 0)
 			(effects
 				(font
@@ -1317,7 +1317,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Murata"
 			(at 134.62 92.71 0)
 			(effects
 				(font
@@ -1335,7 +1335,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "GRM32EC72A106KE05L"
+		(property "LCSC" "C576517"
 			(at 134.62 92.71 0)
 			(effects
 				(font
@@ -1450,7 +1450,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "HMK212BC7105KGHTE"
+		(property "LCSC" ""
 			(at 146.05 85.09 0)
 			(effects
 				(font
@@ -1502,7 +1502,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_2220_5650Metric"
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
 			(at 140.6652 96.52 0)
 			(effects
 				(font
@@ -1547,7 +1547,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Murata"
 			(at 139.7 92.71 0)
 			(effects
 				(font
@@ -1565,7 +1565,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "GRM32EC72A106KE05L"
+		(property "LCSC" "C576517"
 			(at 139.7 92.71 0)
 			(effects
 				(font
@@ -1679,7 +1679,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "HMK107C7224KAHTE"
+		(property "LCSC" ""
 			(at 165.1 92.71 0)
 			(effects
 				(font
@@ -1794,7 +1794,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "HMK212BC7105KGHTE"
+		(property "LCSC" ""
 			(at 158.75 85.09 0)
 			(effects
 				(font
