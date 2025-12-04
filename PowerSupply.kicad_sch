@@ -6779,8 +6779,8 @@
 		(at 182.88 133.35 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
+		(in_bom yes)
+		(on_board yes)
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "b6e813b9-bfaa-453f-9e92-ca10917b848c")
@@ -7185,8 +7185,8 @@
 		(at 182.88 127 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
+		(in_bom yes)
+		(on_board yes)
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "c7292236-af74-4e2d-8cb9-26a53814b198")
@@ -7208,7 +7208,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 182.88 127 0)
 			(effects
 				(font
@@ -8451,7 +8451,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 182.88 69.85 0)
 			(effects
 				(font
