@@ -789,12 +789,12 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "open-pe:UCC21330BQDRQ1"
+		(symbol "local:UCC21330BQDRQ1"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at 0 16.51 0)
+			(property "Reference" "U1"
+				(at 0 17.78 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -802,7 +802,7 @@
 				)
 			)
 			(property "Value" "UCC21330BQDRQ1"
-				(at 0 13.97 0)
+				(at 0 15.24 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -828,6 +828,42 @@
 				)
 			)
 			(property "Description" "Isolated Dual-Channel Gate Driver, Output Current 4.0/6.0A, 5.7kV Isolation, 8V UVLO, SOIC-16"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "UCC21330BQDRQ1"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Digikey" "UCC21330BQDRQ1"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C34414221"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3438,7 +3474,7 @@
 		)
 	)
 	(symbol
-		(lib_id "open-pe:UCC21330BQDRQ1")
+		(lib_id "local:UCC21330BQDRQ1")
 		(at 154.94 92.71 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3448,7 +3484,7 @@
 		(fields_autoplaced yes)
 		(uuid "185b5dcf-a4ab-4d95-a24a-ad1597b5a5f1")
 		(property "Reference" "U1"
-			(at 154.94 74.93 0)
+			(at 154.94 75.9925 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3456,7 +3492,7 @@
 			)
 		)
 		(property "Value" "UCC21330BQDRQ1"
-			(at 154.94 77.47 0)
+			(at 154.94 78.4168 0)
 			(effects
 				(font
 					(size 1.27 1.27)
