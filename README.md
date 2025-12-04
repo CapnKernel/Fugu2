@@ -33,8 +33,8 @@ replaced hall sensor with shunt resistor and faster switching. See the list belo
 * order PCB (or make @home)
     * 1x `Fugu2.kicad_pcb`
     * 2x `psu/buck100.kicad_pcb` (one for 3.3V and one for 12V)
-    * 1x `mcu-head/Fugu2-esp32s3-wroom-head.kicad_pcb` (optional. alternatively place the ESP32(-S3) directly on the
-      Fugu2 board)
+    * 1x M5Stack StampS3 [direct](https://docs.m5stack.com/en/core/StampS3) [AliExpress](https://www.aliexpress.com/item/1005005199957262.html)
+    * Other parts
 * assemble PCBs
 * build inductor
     * order core and copper wire
