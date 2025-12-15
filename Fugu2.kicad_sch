@@ -3459,7 +3459,7 @@
 				)
 			)
 		)
-		(property "Value" "Fuse"
+		(property "Value" "40A"
 			(at 226.06 68.6378 90)
 			(effects
 				(font
